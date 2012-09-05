@@ -1,0 +1,186 @@
+﻿Der Buildvorgang wurde am 14.06.2012 19:44:21 gestartet.
+     1>Projekt "C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\chai3d_complete.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "x64\Debug\CHAI 3D.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       MakeDirsForCl:
+         Das Verzeichnis "C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\.\chai3d_complete___Win32_Debug" wird erstellt.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../external/ODE/include /I../../src /I../../external/OpenGL/msvc /Zi /nologo /W3 /WX- /Od /D _DEBUG /D WIN32 /D _WIN32 /D _LIB /D _MSVC /D _CRT_SECURE_NO_DEPRECATE /D dDOUBLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\chai3d_complete___Win32_Debug/" /Fd".\chai3d_complete___Win32_Debug/vc100.pdb" /Gd /TP /wd4800 /errorReport:prompt ..\..\src\collisions\CCollisionAABB.cpp ..\..\src\collisions\CCollisionAABBBox.cpp ..\..\src\collisions\CCollisionAABBTree.cpp ..\..\src\collisions\CCollisionBasics.cpp ..\..\src\collisions\CCollisionBrute.cpp ..\..\src\collisions\CCollisionSpheres.cpp ..\..\src\collisions\CCollisionSpheresGeometry.cpp ..\..\src\collisions\CGenericCollision.cpp ..\..\src\devices\CCallback.cpp ..\..\src\devices\CDeltaDevices.cpp ..\..\src\devices\CDriverSensoray626.cpp ..\..\src\devices\CDriverServotogo.cpp ..\..\src\devices\CFalconDevice.cpp ..\..\src\devices\CFreedom6SDevice.cpp ..\..\src\devices\CGenericDevice.cpp ..\..\src\devices\CGenericHapticDevice.cpp ..\..\src\devices\CHapticDeviceHandler.cpp ..\..\src\devices\CMyCustomDevice.cpp ..\..\src\devices\CPhantomDevices.cpp ..\..\src\devices\CVirtualDevice.cpp ..\..\src\display\CViewport.cpp ..\..\src\effects\CEffectMagnet.cpp ..\..\src\effects\CEffectStickSlip.cpp ..\..\src\effects\CEffectSurface.cpp ..\..\src\effects\CEffectVibration.cpp ..\..\src\effects\CEffectViscosity.cpp ..\..\src\effects\CGenericEffect.cpp ..\..\src\files\CFileLoader3DS.cpp ..\..\src\files\CFileLoaderBMP.cpp ..\..\src\files\CFileLoaderOBJ.cpp ..\..\src\files\CFileLoaderTGA.cpp ..\..\src\files\CImageLoader.cpp ..\..\src\files\CMeshLoader.cpp ..\..\src\forces\CGenericPointForceAlgo.cpp ..\..\src\forces\CInteractionBasics.cpp ..\..\src\forces\CPotentialFieldForceAlgo.cpp ..\..\src\forces\CProxyPointForceAlgo.cpp ..\..\src\graphics\CColor.cpp ..\..\src\graphics\CDraw3D.cpp ..\..\src\graphics\CGenericTexture.cpp ..\..\src\graphics\CMacrosGL.cpp ..\..\src\graphics\CMaterial.cpp ..\..\src\graphics\CTexture2D.cpp ..\..\src\graphics\CTriangle.cpp ..\..\src\graphics\CVertex.cpp ..\..\src\math\CMaths.cpp ..\..\src\math\CMatrix3d.cpp ..\..\src\math\CQuaternion.cpp ..\..\src\math\CString.cpp ..\..\src\math\CVector3d.cpp ..\..\src\scenegraph\CCamera.cpp ..\..\src\scenegraph\CGenericObject.cpp ..\..\src\scenegraph\CLight.cpp ..\..\src\scenegraph\CMesh.cpp ..\..\src\scenegraph\CShapeLine.cpp ..\..\src\scenegraph\CShapeSphere.cpp ..\..\src\scenegraph\CShapeTorus.cpp ..\..\src\scenegraph\CWorld.cpp ..\..\src\timers\CPrecisionClock.cpp ..\..\src\timers\CThread.cpp ..\..\src\tools\CGeneric3dofPointer.cpp ..\..\src\tools\CGenericTool.cpp ..\..\src\widgets\CBitmap.cpp ..\..\src\widgets\CFont.cpp ..\..\src\widgets\CLabel.cpp ..\..\src\extras\CExtras.cpp ..\..\modules\GEL\CGELLinearSpring.cpp ..\..\modules\GEL\CGELMassParticle.cpp ..\..\modules\GEL\CGELMesh.cpp ..\..\modules\GEL\CGELSkeletonLink.cpp ..\..\modules\GEL\CGELSkeletonNode.cpp ..\..\modules\GEL\CGELVertex.cpp ..\..\modules\GEL\CGELWorld.cpp ..\..\modules\ODE\CODEGenericBody.cpp ..\..\modules\ODE\CODEWorld.cpp
+         CCollisionAABB.cpp
+         CCollisionAABBBox.cpp
+         CCollisionAABBTree.cpp
+         CCollisionBasics.cpp
+         CCollisionBrute.cpp
+         CCollisionSpheres.cpp
+         CCollisionSpheresGeometry.cpp
+         CGenericCollision.cpp
+         CCallback.cpp
+         CDeltaDevices.cpp
+         CDriverSensoray626.cpp
+         CDriverServotogo.cpp
+         CFalconDevice.cpp
+         CFreedom6SDevice.cpp
+         CGenericDevice.cpp
+         CGenericHapticDevice.cpp
+         CHapticDeviceHandler.cpp
+         CMyCustomDevice.cpp
+         CPhantomDevices.cpp
+         CVirtualDevice.cpp
+         Generating Code...
+         Compiling...
+         CViewport.cpp
+         CEffectMagnet.cpp
+         CEffectStickSlip.cpp
+         CEffectSurface.cpp
+         CEffectVibration.cpp
+         CEffectViscosity.cpp
+         CGenericEffect.cpp
+         CFileLoader3DS.cpp
+         CFileLoaderBMP.cpp
+         CFileLoaderOBJ.cpp
+         CFileLoaderTGA.cpp
+         CImageLoader.cpp
+         CMeshLoader.cpp
+         CGenericPointForceAlgo.cpp
+         CInteractionBasics.cpp
+         CPotentialFieldForceAlgo.cpp
+         CProxyPointForceAlgo.cpp
+         CColor.cpp
+         CDraw3D.cpp
+         CGenericTexture.cpp
+         Generating Code...
+         Compiling...
+         CMacrosGL.cpp
+         CMaterial.cpp
+         CTexture2D.cpp
+         CTriangle.cpp
+         CVertex.cpp
+         CMaths.cpp
+         CMatrix3d.cpp
+         CQuaternion.cpp
+         CString.cpp
+         CVector3d.cpp
+         CCamera.cpp
+         CGenericObject.cpp
+         CLight.cpp
+         CMesh.cpp
+         CShapeLine.cpp
+         CShapeSphere.cpp
+         CShapeTorus.cpp
+         CWorld.cpp
+         CPrecisionClock.cpp
+         CThread.cpp
+         Generating Code...
+         Compiling...
+         CGeneric3dofPointer.cpp
+         CGenericTool.cpp
+         CBitmap.cpp
+         CFont.cpp
+         CLabel.cpp
+         CExtras.cpp
+         CGELLinearSpring.cpp
+         CGELMassParticle.cpp
+         CGELMesh.cpp
+         CGELSkeletonLink.cpp
+         CGELSkeletonNode.cpp
+         CGELVertex.cpp
+         CGELWorld.cpp
+         CODEGenericBody.cpp
+         CODEWorld.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\x64\Debug\CHAI 3D.lib) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Users\oostlan\Desktop\chai3d-2.0.0\lib\msvc9\chai3d-debug.lib) von Library. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Lib.OutputFile) angegebenen Wert entsprechen.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(CHAI 3D) entspricht nicht dem OutputFile-Eigenschaftswert (chai3d-debug) von Library. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Lib.OutputFile) angegebenen Wert entsprechen.
+       Lib:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"../../lib/msvc9/chai3d-debug.lib" /NOLOGO /NODEFAULTLIB:"libmmd.lib libmmdd.lib" .\chai3d_complete___Win32_Debug/CCollisionAABB.obj
+         .\chai3d_complete___Win32_Debug/CCollisionAABBBox.obj
+         .\chai3d_complete___Win32_Debug/CCollisionAABBTree.obj
+         .\chai3d_complete___Win32_Debug/CCollisionBasics.obj
+         .\chai3d_complete___Win32_Debug/CCollisionBrute.obj
+         .\chai3d_complete___Win32_Debug/CCollisionSpheres.obj
+         .\chai3d_complete___Win32_Debug/CCollisionSpheresGeometry.obj
+         .\chai3d_complete___Win32_Debug/CGenericCollision.obj
+         .\chai3d_complete___Win32_Debug/CCallback.obj
+         .\chai3d_complete___Win32_Debug/CDeltaDevices.obj
+         .\chai3d_complete___Win32_Debug/CDriverSensoray626.obj
+         .\chai3d_complete___Win32_Debug/CDriverServotogo.obj
+         .\chai3d_complete___Win32_Debug/CFalconDevice.obj
+         .\chai3d_complete___Win32_Debug/CFreedom6SDevice.obj
+         .\chai3d_complete___Win32_Debug/CGenericDevice.obj
+         .\chai3d_complete___Win32_Debug/CGenericHapticDevice.obj
+         .\chai3d_complete___Win32_Debug/CHapticDeviceHandler.obj
+         .\chai3d_complete___Win32_Debug/CMyCustomDevice.obj
+         .\chai3d_complete___Win32_Debug/CPhantomDevices.obj
+         .\chai3d_complete___Win32_Debug/CVirtualDevice.obj
+         .\chai3d_complete___Win32_Debug/CViewport.obj
+         .\chai3d_complete___Win32_Debug/CEffectMagnet.obj
+         .\chai3d_complete___Win32_Debug/CEffectStickSlip.obj
+         .\chai3d_complete___Win32_Debug/CEffectSurface.obj
+         .\chai3d_complete___Win32_Debug/CEffectVibration.obj
+         .\chai3d_complete___Win32_Debug/CEffectViscosity.obj
+         .\chai3d_complete___Win32_Debug/CGenericEffect.obj
+         .\chai3d_complete___Win32_Debug/CFileLoader3DS.obj
+         .\chai3d_complete___Win32_Debug/CFileLoaderBMP.obj
+         .\chai3d_complete___Win32_Debug/CFileLoaderOBJ.obj
+         .\chai3d_complete___Win32_Debug/CFileLoaderTGA.obj
+         .\chai3d_complete___Win32_Debug/CImageLoader.obj
+         .\chai3d_complete___Win32_Debug/CMeshLoader.obj
+         .\chai3d_complete___Win32_Debug/CGenericPointForceAlgo.obj
+         .\chai3d_complete___Win32_Debug/CInteractionBasics.obj
+         .\chai3d_complete___Win32_Debug/CPotentialFieldForceAlgo.obj
+         .\chai3d_complete___Win32_Debug/CProxyPointForceAlgo.obj
+         .\chai3d_complete___Win32_Debug/CColor.obj
+         .\chai3d_complete___Win32_Debug/CDraw3D.obj
+         .\chai3d_complete___Win32_Debug/CGenericTexture.obj
+         .\chai3d_complete___Win32_Debug/CMacrosGL.obj
+         .\chai3d_complete___Win32_Debug/CMaterial.obj
+         .\chai3d_complete___Win32_Debug/CTexture2D.obj
+         .\chai3d_complete___Win32_Debug/CTriangle.obj
+         .\chai3d_complete___Win32_Debug/CVertex.obj
+         .\chai3d_complete___Win32_Debug/CMaths.obj
+         .\chai3d_complete___Win32_Debug/CMatrix3d.obj
+         .\chai3d_complete___Win32_Debug/CQuaternion.obj
+         .\chai3d_complete___Win32_Debug/CString.obj
+         .\chai3d_complete___Win32_Debug/CVector3d.obj
+         .\chai3d_complete___Win32_Debug/CCamera.obj
+         .\chai3d_complete___Win32_Debug/CGenericObject.obj
+         .\chai3d_complete___Win32_Debug/CLight.obj
+         .\chai3d_complete___Win32_Debug/CMesh.obj
+         .\chai3d_complete___Win32_Debug/CShapeLine.obj
+         .\chai3d_complete___Win32_Debug/CShapeSphere.obj
+         .\chai3d_complete___Win32_Debug/CShapeTorus.obj
+         .\chai3d_complete___Win32_Debug/CWorld.obj
+         .\chai3d_complete___Win32_Debug/CPrecisionClock.obj
+         .\chai3d_complete___Win32_Debug/CThread.obj
+         .\chai3d_complete___Win32_Debug/CGeneric3dofPointer.obj
+         .\chai3d_complete___Win32_Debug/CGenericTool.obj
+         .\chai3d_complete___Win32_Debug/CBitmap.obj
+         .\chai3d_complete___Win32_Debug/CFont.obj
+         .\chai3d_complete___Win32_Debug/CLabel.obj
+         .\chai3d_complete___Win32_Debug/CExtras.obj
+         .\chai3d_complete___Win32_Debug/CGELLinearSpring.obj
+         .\chai3d_complete___Win32_Debug/CGELMassParticle.obj
+         .\chai3d_complete___Win32_Debug/CGELMesh.obj
+         .\chai3d_complete___Win32_Debug/CGELSkeletonLink.obj
+         .\chai3d_complete___Win32_Debug/CGELSkeletonNode.obj
+         .\chai3d_complete___Win32_Debug/CGELVertex.obj
+         .\chai3d_complete___Win32_Debug/CGELWorld.obj
+         .\chai3d_complete___Win32_Debug/CODEGenericBody.obj
+         .\chai3d_complete___Win32_Debug/CODEWorld.obj
+     1>CQuaternion.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CMatrix3d.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CMaths.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CVertex.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CTriangle.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CGenericTexture.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CInteractionBasics.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CCollisionBasics.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CCollisionAABBBox.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+         chai3d_complete.vcxproj -> C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\x64\Debug\CHAI 3D.lib
+       FinalizeBuildStatus:
+         Die Datei "x64\Debug\CHAI 3D.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Debug\CHAI 3D.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\chai3d_complete.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:37.60

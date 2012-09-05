@@ -1,0 +1,103 @@
+﻿Der Buildvorgang wurde am 04.07.2012 12:35:05 gestartet.
+     1>Projekt "C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\chai3d_complete.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "x64\Release\CHAI 3D.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../external/ODE/include /I../../external/OpenGL/msvc /I../../src /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /D NDEBUG /D WIN32 /D _WIN32 /D _LIB /D _MSVC /D WINVER=0X0500 /D _CRT_SECURE_NO_DEPRECATE /D dDOUBLE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /wd4800 /errorReport:prompt ..\..\src\forces\CProxyPointForceAlgo.cpp
+         CProxyPointForceAlgo.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\../../lib/msvc9\CHAI 3D.lib) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Users\oostlan\Desktop\chai3d-2.0.0\lib\msvc9\chai3d-release.lib) von Library. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Lib.OutputFile) angegebenen Wert entsprechen.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(CHAI 3D) entspricht nicht dem OutputFile-Eigenschaftswert (chai3d-release) von Library. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Lib.OutputFile) angegebenen Wert entsprechen.
+       Lib:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"../../lib/msvc9/chai3d-release.lib" /NOLOGO /NODEFAULTLIB:"libmmd.lib libmmdd.lib" .\Release/CCollisionAABB.obj
+         .\Release/CCollisionAABBBox.obj
+         .\Release/CCollisionAABBTree.obj
+         .\Release/CCollisionBasics.obj
+         .\Release/CCollisionBrute.obj
+         .\Release/CCollisionSpheres.obj
+         .\Release/CCollisionSpheresGeometry.obj
+         .\Release/CGenericCollision.obj
+         .\Release/CCallback.obj
+         .\Release/CDeltaDevices.obj
+         .\Release/CDriverSensoray626.obj
+         .\Release/CDriverServotogo.obj
+         .\Release/CFalconDevice.obj
+         .\Release/CFreedom6SDevice.obj
+         .\Release/CGenericDevice.obj
+         .\Release/CGenericHapticDevice.obj
+         .\Release/CHapticDeviceHandler.obj
+         .\Release/CMyCustomDevice.obj
+         .\Release/CPhantomDevices.obj
+         .\Release/CVirtualDevice.obj
+         .\Release/CViewport.obj
+         .\Release/CEffectMagnet.obj
+         .\Release/CEffectStickSlip.obj
+         .\Release/CEffectSurface.obj
+         .\Release/CEffectVibration.obj
+         .\Release/CEffectViscosity.obj
+         .\Release/CGenericEffect.obj
+         .\Release/CFileLoader3DS.obj
+         .\Release/CFileLoaderBMP.obj
+         .\Release/CFileLoaderOBJ.obj
+         .\Release/CFileLoaderTGA.obj
+         .\Release/CImageLoader.obj
+         .\Release/CMeshLoader.obj
+         .\Release/CGenericPointForceAlgo.obj
+         .\Release/CInteractionBasics.obj
+         .\Release/CPotentialFieldForceAlgo.obj
+         .\Release/CProxyPointForceAlgo.obj
+         .\Release/CColor.obj
+         .\Release/CDraw3D.obj
+         .\Release/CGenericTexture.obj
+         .\Release/CMacrosGL.obj
+         .\Release/CMaterial.obj
+         .\Release/CTexture2D.obj
+         .\Release/CTriangle.obj
+         .\Release/CVertex.obj
+         .\Release/CMaths.obj
+         .\Release/CMatrix3d.obj
+         .\Release/CQuaternion.obj
+         .\Release/CString.obj
+         .\Release/CVector3d.obj
+         .\Release/CCamera.obj
+         .\Release/CGenericObject.obj
+         .\Release/CLight.obj
+         .\Release/CMesh.obj
+         .\Release/CShapeLine.obj
+         .\Release/CShapeSphere.obj
+         .\Release/CShapeTorus.obj
+         .\Release/CWorld.obj
+         .\Release/CPrecisionClock.obj
+         .\Release/CThread.obj
+         .\Release/CGeneric3dofPointer.obj
+         .\Release/CGenericTool.obj
+         .\Release/CBitmap.obj
+         .\Release/CFont.obj
+         .\Release/CLabel.obj
+         .\Release/CExtras.obj
+         .\Release/CGELLinearSpring.obj
+         .\Release/CGELMassParticle.obj
+         .\Release/CGELMesh.obj
+         .\Release/CGELSkeletonLink.obj
+         .\Release/CGELSkeletonNode.obj
+         .\Release/CGELVertex.obj
+         .\Release/CGELWorld.obj
+         .\Release/CODEGenericBody.obj
+         .\Release/CODEWorld.obj /NODEFAULTLIB:libmmd.lib 
+     1>CQuaternion.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CMatrix3d.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CMaths.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CVertex.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CTriangle.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CGenericTexture.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CInteractionBasics.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CCollisionBasics.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>CCollisionAABBBox.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+         chai3d_complete.vcxproj -> C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\../../lib/msvc9\CHAI 3D.lib
+       FinalizeBuildStatus:
+         Die Datei "x64\Release\CHAI 3D.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Release\CHAI 3D.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\oostlan\Desktop\chai3d-2.0.0\projects\msvc9\chai3d_complete.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:02.33

@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="collisions">
+      <UniqueIdentifier>{2f8de23a-1827-4498-9e7e-01cb808d2420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices">
+      <UniqueIdentifier>{6e1a86bb-ba77-4f3f-9090-26adf7748f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="display">
+      <UniqueIdentifier>{a5e0944b-e88f-45d4-a187-6529d552ee4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effects">
+      <UniqueIdentifier>{e3d62598-bd96-4332-8a7d-64b0f9874ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{0dbbda36-2866-45f5-ae64-123abe4efebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forces">
+      <UniqueIdentifier>{02eb3d53-c974-4866-bdf1-c883972e9045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{548d9828-3806-4ecd-ac69-81d80af0ce6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{94bf9c70-471f-4906-a214-6d70cc1613b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenegraph">
+      <UniqueIdentifier>{24274ed5-6702-4c20-8276-8e513fb67463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timers">
+      <UniqueIdentifier>{1cf3eea8-90e9-404b-83db-3e7ea6707369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{05b74080-ac65-4c7c-b536-f3fc8d8c6dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widgets">
+      <UniqueIdentifier>{08c14d9e-bef7-4753-b156-035fa391dc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extras">
+      <UniqueIdentifier>{0f363edf-c54c-4cce-9a75-6e53543bce88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module GEL">
+      <UniqueIdentifier>{a071bd58-a20b-41ed-b5e2-e8eb1ced09a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module ODE">
+      <UniqueIdentifier>{ad42c620-0296-4f20-8a1b-f1fe129d607e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\collisions\CCollisionAABB.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\collisions\CCollisionAABBBox.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\collisions\CCollisionAABBTree.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\collisions\CCollisionBasics.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\collisions\CCollisionBrute.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\collisions\CCollisionSpheres.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\collisions\CCollisionSpheresGeometry.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\collisions\CGenericCollision.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CCallback.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CDeltaDevices.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CDriverSensoray626.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CDriverServotogo.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CFalconDevice.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CFreedom6SDevice.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CGenericDevice.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CGenericHapticDevice.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CHapticDeviceHandler.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CMyCustomDevice.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CPhantomDevices.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\devices\CVirtualDevice.cpp">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\display\CViewport.cpp">
+      <Filter>display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\effects\CEffectMagnet.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\effects\CEffectStickSlip.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\effects\CEffectSurface.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\effects\CEffectVibration.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\effects\CEffectViscosity.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\effects\CGenericEffect.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\files\CFileLoader3DS.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\files\CFileLoaderBMP.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\files\CFileLoaderOBJ.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\files\CFileLoaderTGA.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\files\CImageLoader.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\files\CMeshLoader.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\forces\CGenericPointForceAlgo.cpp">
+      <Filter>forces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\forces\CInteractionBasics.cpp">
+      <Filter>forces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\forces\CPotentialFieldForceAlgo.cpp">
+      <Filter>forces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\forces\CProxyPointForceAlgo.cpp">
+      <Filter>forces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CColor.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CDraw3D.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CGenericTexture.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CMacrosGL.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CMaterial.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CTexture2D.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CTriangle.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\CVertex.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\math\CMaths.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\math\CMatrix3d.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\math\CQuaternion.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\math\CString.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\math\CVector3d.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CCamera.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CGenericObject.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CLight.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CMesh.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CShapeLine.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CShapeSphere.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CShapeTorus.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scenegraph\CWorld.cpp">
+      <Filter>scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\timers\CPrecisionClock.cpp">
+      <Filter>timers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\timers\CThread.cpp">
+      <Filter>timers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\CGeneric3dofPointer.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\CGenericTool.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\widgets\CBitmap.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\widgets\CFont.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\widgets\CLabel.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extras\CExtras.cpp">
+      <Filter>extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\GEL\CGELLinearSpring.cpp">
+      <Filter>module GEL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\GEL\CGELMassParticle.cpp">
+      <Filter>module GEL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\GEL\CGELMesh.cpp">
+      <Filter>module GEL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\GEL\CGELSkeletonLink.cpp">
+      <Filter>module GEL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\GEL\CGELSkeletonNode.cpp">
+      <Filter>module GEL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\GEL\CGELVertex.cpp">
+      <Filter>module GEL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\GEL\CGELWorld.cpp">
+      <Filter>module GEL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\ODE\CODEGenericBody.cpp">
+      <Filter>module ODE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\modules\ODE\CODEWorld.cpp">
+      <Filter>module ODE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\collisions\CCollisionAABB.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\collisions\CCollisionAABBBox.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\collisions\CCollisionAABBTree.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\collisions\CCollisionBasics.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\collisions\CCollisionBrute.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\collisions\CCollisionSpheres.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\collisions\CCollisionSpheresGeometry.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\collisions\CGenericCollision.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CCallback.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CDeltaDevices.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CDriverSensoray626.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CDriverServotogo.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CFalconDevice.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CFreedom6SDevice.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CGenericDevice.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CGenericHapticDevice.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CHapticDeviceHandler.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CMyCustomDevice.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CPhantomDevices.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\devices\CVirtualDevice.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\display\CViewport.h">
+      <Filter>display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\effects\CEffectMagnet.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\effects\CEffectStickSlip.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\effects\CEffectSurface.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\effects\CEffectVibration.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\effects\CEffectViscosity.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\effects\CGenericEffect.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\files\CFileLoader3DS.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\files\CFileLoaderBMP.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\files\CFileLoaderOBJ.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\files\CFileLoaderTGA.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\files\CImageLoader.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\files\CMeshLoader.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\forces\CGenericPointForceAlgo.h">
+      <Filter>forces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\forces\CInteractionBasics.h">
+      <Filter>forces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\forces\CPotentialFieldForceAlgo.h">
+      <Filter>forces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\forces\CProxyPointForceAlgo.h">
+      <Filter>forces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CColor.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CDraw3D.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CGenericTexture.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CMacrosGL.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CMaterial.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CTexture2D.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CTriangle.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\graphics\CVertex.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\math\CConstants.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\math\CMaths.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\math\CMatrix3d.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\math\CQuaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\math\CString.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\math\CVector3d.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CCamera.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CGenericObject.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CLight.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CMesh.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CShapeLine.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CShapeSphere.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CShapeTorus.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scenegraph\CWorld.h">
+      <Filter>scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\timers\CPrecisionClock.h">
+      <Filter>timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\timers\CThread.h">
+      <Filter>timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tools\CGeneric3dofPointer.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tools\CGenericTool.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\widgets\CBitmap.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\widgets\CFont.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\widgets\CLabel.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extras\CExtras.h">
+      <Filter>extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extras\CGlobals.h">
+      <Filter>extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\CGELLinearSpring.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\CGELMassParticle.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\CGELMesh.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\CGELSkeletonLink.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\CGELSkeletonNode.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\CGELVertex.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\CGELWorld.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\GEL\GEL3D.h">
+      <Filter>module GEL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\ODE\CODE.h">
+      <Filter>module ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\ODE\CODEGenericBody.h">
+      <Filter>module ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\modules\ODE\CODEWorld.h">
+      <Filter>module ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\chai3d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿Der Buildvorgang wurde am 14.06.2012 19:44:59 gestartet.
+     1>Projekt "C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\42-ODE-mesh\ode-mesh.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "x64\Debug\42 - ODE-mesh.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../../src /I../../../modules/ODE /I../../../external/ODE/include /I../../../external/OpenGL/msvc /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MSVC /D WINVER=0X0500 /D dDOUBLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"StdAfx.h" /Fp"x64\Debug\42 - ODE-mesh.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../../src /I../../../modules/ODE /I../../../external/ODE/include /I../../../external/OpenGL/msvc /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MSVC /D WINVER=0X0500 /D dDOUBLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "src\42-ODE-mesh.cpp"
+         42-ODE-mesh.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\42 - ODE-mesh.exe.embed.manifest.res" "x64\Debug\42 - ODE-mesh_manifest.rc" 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\42-ODE-mesh\x64\Debug\42 - ODE-mesh.exe) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Users\oostlan\Desktop\chai3d-2.0.0\bin\42-ODE-mesh.exe) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(42 - ODE-mesh) entspricht nicht dem OutputFile-Eigenschaftswert (42-ODE-mesh) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/42-ODE-mesh.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../external/ODE/lib/msvc /LIBPATH:../../../lib/msvc9 /LIBPATH:../../../external/OpenGL/msvc winmm.lib opengl32.lib "chai3d-debug.lib" glu32.lib ode_double.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\42 - ODE-mesh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"x64\Debug\ODE-mesh.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Debug\42 - ODE-mesh.lib" /MACHINE:X64 "x64\Debug\42 - ODE-mesh.exe.embed.manifest.res"
+         "x64\Debug\42-ODE-mesh.obj"
+         x64\Debug\stdafx.obj
+         "C:\Users\oostlan\Desktop\chai3d-2.0.0\lib\msvc9\chai3d-debug.lib"
+         ode-mesh.vcxproj -> C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\42-ODE-mesh\x64\Debug\42 - ODE-mesh.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\42 - ODE-mesh.exe.embed.manifest" /manifest "x64\Debug\42 - ODE-mesh.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\42 - ODE-mesh.exe.embed.manifest.res" "x64\Debug\42 - ODE-mesh_manifest.rc" 
+       LinkEmbedManifest:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/42-ODE-mesh.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../external/ODE/lib/msvc /LIBPATH:../../../lib/msvc9 /LIBPATH:../../../external/OpenGL/msvc winmm.lib opengl32.lib "chai3d-debug.lib" glu32.lib ode_double.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\42 - ODE-mesh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"x64\Debug\ODE-mesh.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Debug\42 - ODE-mesh.lib" /MACHINE:X64 "x64\Debug\42 - ODE-mesh.exe.embed.manifest.res"
+         "x64\Debug\42-ODE-mesh.obj"
+         x64\Debug\stdafx.obj
+         "C:\Users\oostlan\Desktop\chai3d-2.0.0\lib\msvc9\chai3d-debug.lib"
+         ode-mesh.vcxproj -> C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\42-ODE-mesh\x64\Debug\42 - ODE-mesh.exe
+       FinalizeBuildStatus:
+         Die Datei "x64\Debug\42 - ODE-mesh.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Debug\42 - ODE-mesh.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\42-ODE-mesh\ode-mesh.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:04.75

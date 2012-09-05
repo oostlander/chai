@@ -1,0 +1,36 @@
+﻿Der Buildvorgang wurde am 14.06.2012 19:45:04 gestartet.
+     1>Projekt "C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\12-polygons\polygons.vcxproj" auf Knoten "4", build Ziel(e).
+     1>InitializeBuildStatus:
+         "x64\Debug\12 - polygons.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../../src /I../../../external/OpenGL/msvc /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MSVC /D WINVER=0X0500 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"StdAfx.h" /Fp"x64\Debug\12 - polygons.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../../src /I../../../external/OpenGL/msvc /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MSVC /D WINVER=0X0500 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "src\12-polygons.cpp"
+         12-polygons.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\12 - polygons.exe.embed.manifest.res" "x64\Debug\12 - polygons_manifest.rc" 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\12-polygons\x64\Debug\12 - polygons.exe) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Users\oostlan\Desktop\chai3d-2.0.0\bin\12-polygons.exe) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(12 - polygons) entspricht nicht dem OutputFile-Eigenschaftswert (12-polygons) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/12-polygons.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../lib/msvc9 /LIBPATH:../../../external/OpenGL/msvc winmm.lib opengl32.lib "chai3d-debug.lib" glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\12 - polygons.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"x64\Debug\polygons.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Debug\12 - polygons.lib" /MACHINE:X64 "x64\Debug\12 - polygons.exe.embed.manifest.res"
+         "x64\Debug\12-polygons.obj"
+         x64\Debug\stdafx.obj
+         "C:\Users\oostlan\Desktop\chai3d-2.0.0\lib\msvc9\chai3d-debug.lib"
+         polygons.vcxproj -> C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\12-polygons\x64\Debug\12 - polygons.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\12 - polygons.exe.embed.manifest" /manifest "x64\Debug\12 - polygons.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\12 - polygons.exe.embed.manifest.res" "x64\Debug\12 - polygons_manifest.rc" 
+       LinkEmbedManifest:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/12-polygons.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../lib/msvc9 /LIBPATH:../../../external/OpenGL/msvc winmm.lib opengl32.lib "chai3d-debug.lib" glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\12 - polygons.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"x64\Debug\polygons.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Debug\12 - polygons.lib" /MACHINE:X64 "x64\Debug\12 - polygons.exe.embed.manifest.res"
+         "x64\Debug\12-polygons.obj"
+         x64\Debug\stdafx.obj
+         "C:\Users\oostlan\Desktop\chai3d-2.0.0\lib\msvc9\chai3d-debug.lib"
+         polygons.vcxproj -> C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\12-polygons\x64\Debug\12 - polygons.exe
+       FinalizeBuildStatus:
+         Die Datei "x64\Debug\12 - polygons.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Debug\12 - polygons.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\12-polygons\polygons.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:04.76

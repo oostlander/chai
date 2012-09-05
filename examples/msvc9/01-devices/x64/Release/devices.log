@@ -1,0 +1,25 @@
+﻿Der Buildvorgang wurde am 04.07.2012 12:36:57 gestartet.
+     1>Projekt "C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\01-devices\devices.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "x64\Release\01 - devices.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../../src /I../../../external/OpenGL/msvc /nologo /W3 /WX- /O2 /D _WIN32 /D _MSVC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt "src\01-devices.cpp"
+         01-devices.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\01-devices\x64\Release\01 - devices.exe) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Users\oostlan\Desktop\chai3d-2.0.0\bin\01-devices.exe) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(01 - devices) entspricht nicht dem OutputFile-Eigenschaftswert (01-devices) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/01-devices.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../lib/msvc9 /LIBPATH:../../../external/OpenGL/msvc winmm.lib opengl32.lib "chai3d-release.lib" glu32.lib glut32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\01 - devices.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\01-devices\x64\Release\01 - devices.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Release\01 - devices.lib" /MACHINE:X64 "x64\Release\01-devices.obj"
+         x64\Release\stdafx.obj
+         "C:\Users\oostlan\Desktop\chai3d-2.0.0\lib\msvc9\chai3d-release.lib"
+         devices.vcxproj -> C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\01-devices\x64\Release\01 - devices.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../bin/01-devices.exe;#1" /manifest "x64\Release\01 - devices.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Die Datei "x64\Release\01 - devices.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Release\01 - devices.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\oostlan\Desktop\chai3d-2.0.0\examples\msvc9\01-devices\devices.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:00.92
