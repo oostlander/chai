@@ -239,7 +239,7 @@ int main(int argc, char* argv[])
                           );
 
 	//printNumbers(logo,40,40,100);                                                                                          //<<<<<------------------------------------------------///
-    printNumbers(logo,40,40,0);
+    printNumbers(logo,40,40,42);
 	// enable transparency
     logo->enableTransparency(true);
 	
@@ -667,7 +667,8 @@ void printNumbers(cBitmap* texture, int y, int x, int number)
 	else
 		// add a zero to the stack so we can print one
 		digitstack.push(0);
-	int posx,posy = 40;
+	int posx = 40;
+	int posy = 40;
 
 	for (i=1; i<=countDigits; i++)
 	{
@@ -678,79 +679,94 @@ void printNumbers(cBitmap* texture, int y, int x, int number)
 		switch(digit)
 		{
 			///texture->m_image.setPixelColor(x+lengthDash+(i*11)+n,y+((m*11)+1),cColorb(1, 1, 1)); // for reference
-		case 0: {
+		case 0:
 			drawLines(texture,1,2,3,0,5,6,7,&posx,&posy);
-			texture->m_image.setPixelColor(x,y + i,cColorb(1, 1, 1));
-				}
-		case 1: {
+			break;
+		case 1:
 			drawLines(texture,0,0,3,0,0,6,0,&posx,&posy);
-				}
-		case 2: {
+			break;
+		case 2:
 			drawLines(texture,1,0,3,4,5,0,7,&posx,&posy);
-				}
-		case 3: {
+			break;
+		case 3:
 			drawLines(texture,1,0,3,4,0,6,7,&posx,&posy);
-				}
-		case 4: {
+			break;
+		case 4:
 			drawLines(texture,0,2,3,4,0,6,0,&posx,&posy);
-				}
-		case 5: {
+			break;
+		case 5:
 			drawLines(texture,1,2,0,4,0,6,7,&posx,&posy);
-				}
-		case 6: {
+			break;
+		case 6:
 			drawLines(texture,1,2,0,4,5,6,7,&posx,&posy);
-				}
-		case 7: {
+			break;
+		case 7:
 			drawLines(texture,1,0,3,0,0,6,0,&posx,&posy);
-				}
-		case 8: {
+			break;
+		case 8:
 			drawLines(texture,1,2,3,4,5,6,7,&posx,&posy);
-				}
-		case 9: {
+			break;
+		case 9:
 			drawLines(texture,1,2,3,4,0,6,0,&posx,&posy);
-				}
+			break;
 		}
+		posx= posx + 18;
 	}
 	flag = 1;
 }
 
-void drawLines(cBitmap* texture,int l1,int l2,int l3,int l4,int l5,int l6,int l7,int* posx, int* posy)
+void drawLines(cBitmap* texture,int l1,int l2,int l3,int l4,int l5,int l6,int l7,int *posx, int *posy)
 {
 	int i = 0;
-	if (l1 == 0)
+	printf("values are: %d,%d,%d,%d,%d,%d,%d\n",l1,l2,l3,l4,l5,l6,l7);
+	if (l1 != 0)
 	{
-		for (i=0;i<14;i++)
+		for (i=2;i<12;i++)
 		{
-			texture->m_image.setPixelColor(*posx + i,*posy,cColorb(1, 1, 1));
-		}
-		for (i=0;i<24;i++)
-		{
-			texture->m_image.setPixelColor(*posx,*posy + i,cColorb(1, 1, 1));
+			texture->m_image.setPixelColor(*posx + i,*posy+28,cColorb(1, 1, 1));
 		}
 	}
 	if (l2 != 0)
 	{
-
+		for (i=16;i<26;i++)
+		{
+			texture->m_image.setPixelColor(*posx,*posy + i,cColorb(1, 1, 1));
+		}
 	}
 	if (l3 != 0)
 	{
-
+		for (i=16;i<26;i++)
+		{
+			texture->m_image.setPixelColor(*posx+14,*posy + i,cColorb(1, 1, 1));
+		}
 	}
 	if (l4 != 0)
 	{
-
+		for (i=2;i<12;i++)
+		{
+			texture->m_image.setPixelColor(*posx + i,*posy+14,cColorb(1, 1, 1));
+		}
 	}
 	if (l5 != 0)
 	{
-
+		for (i=2;i<12;i++)
+		{
+			texture->m_image.setPixelColor(*posx,*posy + i,cColorb(1, 1, 1));
+		}
 	}
 	if (l6 != 0)
 	{
-
+		for (i=2;i<12;i++)
+		{
+			texture->m_image.setPixelColor(*posx+14,*posy + i,cColorb(1, 1, 1));
+		}
 	}
 	if (l7 != 0)
 	{
-
+		for (i=2;i<12;i++)
+		{
+			texture->m_image.setPixelColor(*posx + i,*posy,cColorb(1, 1, 1));
+		}
 	}
 
 }
