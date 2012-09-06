@@ -50,6 +50,8 @@ const int OPTION_WINDOWDISPLAY  = 2;
 
 // a flag for doing things ony once
 int flag = 0;
+// default offset for drawing numbers
+int defoff = 0;
 
 // a world that contains all objects of the virtual environment
 cWorld* world;
@@ -132,6 +134,7 @@ void updateHaptics(void);
 // print a number to a tecture
 void printNumbers(cTexture2D* texture, int x, int y, int number);
 void printNumbers(cBitmap* texture, int x, int y, int number);
+void drawLines(cBitmap* texture,int l1,int l2,int l3,int l4,int l5,int l6,int l7,int* posx = &defoff, int* posy = &defoff);
 
 
 //===========================================================================
@@ -634,7 +637,7 @@ void printNumbers(cTexture2D* texture, int x, int y, int number)
 void printNumbers(cBitmap* texture, int y, int x, int number)
 	{
 	int i = 0;
-	int j,k = 0;
+	//int j,k = 0;
 	int lengthDash = 10;
 	int widthDash = 2;
 	cColorb color = cColorb(0.5, 1, 1);
@@ -662,7 +665,9 @@ void printNumbers(cBitmap* texture, int y, int x, int number)
 		}
 	}
 	else
+		// add a zero to the stack so we can print one
 		digitstack.push(0);
+	int posx,posy = 40;
 
 	for (i=1; i<=countDigits; i++)
 	{
@@ -672,69 +677,82 @@ void printNumbers(cBitmap* texture, int y, int x, int number)
 		if (flag!=1)printf ("digit is = %d\n",digit);
 		switch(digit)
 		{
+			///texture->m_image.setPixelColor(x+lengthDash+(i*11)+n,y+((m*11)+1),cColorb(1, 1, 1)); // for reference
 		case 0: {
-			//draw the dash
-			for (j=0; j<=lengthDash;j++)
-			{
-				//lines on top and bottom
-				int m,n = 0;/*
-				for(m=0;m<3;m++)
-				{
-					//start Position + draw it + position digits + dash start offset //+ (i=0?2:2*i)
-					if (m!=1)texture->m_image.setPixelColor(x + j + (i*14),y+(m*10),color);
-				}*/
-				//lines on the side
-				m=0;
-				// two lines
-				for(m=0;m<2;m++)
-				{
-					//two sides
-					for (n=0;n<2;n++)
-					{
-						//(x)pos of number + offset for side + offset for digit
-						//(y)pos of number + 
-						texture->m_image.setPixelColor(x+(n*lengthDash)+(i*(lengthDash+1)),y+((m*(lengthDash+1))+1)+j,color);
-
-					}
-				}
-			}
+			drawLines(texture,1,2,3,0,5,6,7,&posx,&posy);
+			texture->m_image.setPixelColor(x,y + i,cColorb(1, 1, 1));
 				}
 		case 1: {
-			for (j=0; j<=lengthDash;j++)
-			{
-				int m,n = 0;
-				//lines on the side
-				m=0;
-				// two lines
-				for(m=0;m<2;m++)
-				{
-					for (n=0;n<widthDash;n++)
-					{
-						//(x)Position of Start + offset for pos. of dashes + position of digit in number + thikness of line
-						texture->m_image.setPixelColor(x+lengthDash+(i*11)+n,y+((m*11)+1),cColorb(1, 1, 1));
-					}
-				}
-			}
+			drawLines(texture,0,0,3,0,0,6,0,&posx,&posy);
 				}
 		case 2: {
+			drawLines(texture,1,0,3,4,5,0,7,&posx,&posy);
 				}
 		case 3: {
+			drawLines(texture,1,0,3,4,0,6,7,&posx,&posy);
 				}
 		case 4: {
+			drawLines(texture,0,2,3,4,0,6,0,&posx,&posy);
 				}
 		case 5: {
+			drawLines(texture,1,2,0,4,0,6,7,&posx,&posy);
 				}
 		case 6: {
+			drawLines(texture,1,2,0,4,5,6,7,&posx,&posy);
 				}
 		case 7: {
+			drawLines(texture,1,0,3,0,0,6,0,&posx,&posy);
 				}
 		case 8: {
+			drawLines(texture,1,2,3,4,5,6,7,&posx,&posy);
 				}
 		case 9: {
+			drawLines(texture,1,2,3,4,0,6,0,&posx,&posy);
 				}
 		}
 	}
 	flag = 1;
+}
+
+void drawLines(cBitmap* texture,int l1,int l2,int l3,int l4,int l5,int l6,int l7,int* posx, int* posy)
+{
+	int i = 0;
+	if (l1 == 0)
+	{
+		for (i=0;i<14;i++)
+		{
+			texture->m_image.setPixelColor(*posx + i,*posy,cColorb(1, 1, 1));
+		}
+		for (i=0;i<24;i++)
+		{
+			texture->m_image.setPixelColor(*posx,*posy + i,cColorb(1, 1, 1));
+		}
+	}
+	if (l2 != 0)
+	{
+
+	}
+	if (l3 != 0)
+	{
+
+	}
+	if (l4 != 0)
+	{
+
+	}
+	if (l5 != 0)
+	{
+
+	}
+	if (l6 != 0)
+	{
+
+	}
+	if (l7 != 0)
+	{
+
+	}
+
 }
 
 void updateGraphics(void)
